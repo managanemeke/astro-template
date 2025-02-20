@@ -1,0 +1,12 @@
+*
+!/public/
+!/public/*.*
+!/src/
+!/src/*/
+!/src/*/*.*
+!/astro.config.mjs
+!/package.json
+!/readme.md
+!/tsconfig.json
+!/yarn.lock
+!.gitignore

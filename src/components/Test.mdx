@@ -1,0 +1,21 @@
+---
+title: "Пример использования frontmatter"
+items:
+  - name: "Элемент 1"
+    description: "Описание элемента 1"
+  - name: "Элемент 2"
+    description: "Описание элемента 2"
+  - name: "Элемент 3"
+    description: "Описание элемента 3"
+---
+
+import React from 'react';
+
+# {frontmatter.title}
+
+{frontmatter.items.map((item, index) => (
+<div key={index}>
+    <h2>{item.name}</h2>
+    <p>{item.description}</p>
+</div>
+))}
