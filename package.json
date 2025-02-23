@@ -1,7 +1,8 @@
 {
-  "name": "grateful-graham",
+  "name": "test",
+  "version": "0.0.0",
+  "description": "test",
   "type": "module",
-  "version": "0.0.1",
   "license": "UNLICENSED",
   "scripts": {
     "dev": "astro dev",
